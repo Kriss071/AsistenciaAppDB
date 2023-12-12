@@ -320,7 +320,8 @@
       ],
       "asignaturaId": 101,
       "seccionId": 1,
-      "fecha": "2023-12-05T10:30:00"
+      "fecha": "2023-12-05T10:30:00",
+      "codigoQr": ""
     }
   ]
 }
