@@ -1,0 +1,326 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nombre": "Christian Quintanilla",
+      "email": "1@1",
+      "password": "123",
+      "role": "Alumno",
+      "seccion": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Joaquín Caba",
+      "email": "2@2",
+      "password": "123",
+      "role": "Alumno",
+      "seccion": 2
+    },
+    {
+      "id": 3,
+      "nombre": "Mauricio Machuca",
+      "email": "q@q",
+      "password": "123",
+      "role": "Profesor"
+    },
+    {
+      "id": 4,
+      "nombre": "Viviana Sol",
+      "email": "w@w",
+      "password": "123",
+      "role": "Profesor"
+    },
+    {
+      "id": 5,
+      "nombre": "Sonia Arriagada",
+      "email": "e@e",
+      "password": "123",
+      "role": "Profesor"
+    },
+    {
+      "id": 6,
+      "nombre": "Fabian Alvarez",
+      "email": "r@r",
+      "password": "123",
+      "role": "Profesor"
+    },
+    {
+      "id": 7,
+      "nombre": "Paul Arellano",
+      "email": "3@3",
+      "password": "123",
+      "role": "Alumno",
+      "seccion": 1
+    }
+  ],
+  "asignaturas": [
+    {
+      "id": 101,
+      "nombre": "Base de Datos",
+      "profesorId": 3,
+      "img": "assets/img/baseDeDatos.jpg",
+      "horario": [
+        {
+          "id": 101,
+          "dia": "Lunes",
+          "inicio": "19:00",
+          "termino": "22:00",
+          "seccionId": 1,
+          "idHorario": 1
+        },
+        {
+          "id": 101,
+          "dia": "Viernes",
+          "inicio": "19:00",
+          "termino": "22:00",
+          "seccionId": 1,
+          "idHorario": 2
+        },
+        {
+          "id": 101,
+          "dia": "Miercoles",
+          "inicio": "19:00",
+          "termino": "22:00",
+          "seccionId": 2,
+          "idHorario": 3
+        },
+        {
+          "id": 101,
+          "dia": "Martes",
+          "inicio": "19:00",
+          "termino": "22:00",
+          "seccionId": 2,
+          "idHorario": 4
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "nombre": "Desarrollo Web",
+      "profesorId": 4,
+      "img": "assets/img/desarrolloWeb.jpg",
+      "horario": [
+        {
+          "id": 102,
+          "dia": "Martes",
+          "inicio": "19:00",
+          "termino": "21:50",
+          "seccionId": 1,
+          "idHorario": 5
+        },
+        {
+          "id": 102,
+          "dia": "Jueves",
+          "inicio": "19:00",
+          "termino": "21:50",
+          "seccionId": 2,
+          "idHorario": 6
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "nombre": "Programación Movíl",
+      "profesorId": 5,
+      "img": "assets/img/programacionMovil.jpg",
+      "horario": [
+        {
+          "id": 103,
+          "dia": "Miercoles",
+          "inicio": "20:30",
+          "termino": "22:30",
+          "seccionId": 1,
+          "idHorario": 7
+        },
+        {
+          "id": 103,
+          "dia": "Viernes",
+          "inicio": "20:30",
+          "termino": "22:30",
+          "seccionId": 2,
+          "idHorario": 8
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "nombre": "Arquitectura",
+      "profesorId": 6,
+      "img": "assets/img/arquitectura.jpg",
+      "horario": [
+        {
+          "id": 104,
+          "dia": "Jueves",
+          "inicio": "19:00",
+          "termino": "22:00",
+          "seccionId": 1,
+          "idHorario": 9
+        },
+        {
+          "id": 104,
+          "dia": "Lunes",
+          "inicio": "19:00",
+          "termino": "22:00",
+          "seccionId": 2,
+          "idHorario": 10
+        }
+      ]
+    }
+  ],
+  "enrolamiento": [
+    {
+      "userId": 1,
+      "asignaturaId": [
+        101
+      ]
+    },
+    {
+      "userId": 2,
+      "asignaturaId": [
+        101,
+        102,
+        103,
+        104
+      ]
+    },
+    {
+      "userId": 3,
+      "asignaturaId": [
+        101
+      ]
+    },
+    {
+      "userId": 4,
+      "asignaturaId": [
+        102
+      ]
+    },
+    {
+      "userId": 5,
+      "asignaturaId": [
+        103
+      ]
+    },
+    {
+      "userId": 6,
+      "asignaturaId": [
+        104
+      ]
+    },
+    {
+      "userId": 7,
+      "asignaturaId": [
+        101,
+        102,
+        103,
+        104
+      ]
+    }
+  ],
+  "seccion": [
+    {
+      "id": 1,
+      "codigo": "001BD",
+      "asignaturaId": 101,
+      "profesorId": 3
+    },
+    {
+      "id": 2,
+      "codigo": "002BD",
+      "asignaturaId": 101,
+      "profesorId": 3
+    },
+    {
+      "id": 1,
+      "codigo": "001DW",
+      "asignaturaId": 102,
+      "profesorId": 4
+    },
+    {
+      "id": 2,
+      "codigo": "002DW",
+      "asignaturaId": 102,
+      "profesorId": 4
+    },
+    {
+      "id": 1,
+      "codigo": "001PM",
+      "asignaturaId": 103,
+      "profesorId": 5
+    },
+    {
+      "id": 2,
+      "codigo": "002PM",
+      "asignaturaId": 103,
+      "profesorId": 5
+    },
+    {
+      "id": 1,
+      "codigo": "001AR",
+      "asignaturaId": 104,
+      "profesorId": 6
+    },
+    {
+      "id": 2,
+      "codigo": "002AR",
+      "asignaturaId": 104,
+      "profesorId": 6
+    }
+  ],
+  "horario": [
+    {
+      "id": 1,
+      "asistencia": true
+    },
+    {
+      "id": 2,
+      "asistencia": false
+    },
+    {
+      "id": 3,
+      "asistencia": false
+    },
+    {
+      "id": 4,
+      "asistencia": false
+    },
+    {
+      "id": 5,
+      "asistencia": false
+    },
+    {
+      "id": 6,
+      "asistencia": false
+    },
+    {
+      "id": 7,
+      "asistencia": false
+    },
+    {
+      "id": 8,
+      "asistencia": false
+    },
+    {
+      "id": 9,
+      "asistencia": false
+    },
+    {
+      "id": 10,
+      "asistencia": false
+    }
+  ],
+  "asistencia": [
+    {
+      "id": 1,
+      "userId": [
+        1,
+        2,
+        7,
+        3
+      ],
+      "asignaturaId": 101,
+      "seccionId": 1,
+      "fecha": "2023-12-05T10:30:00"
+    }
+  ]
+}
