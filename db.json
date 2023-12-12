@@ -311,17 +311,19 @@
   ],
   "asistencia": [
     {
-      "id": 1,
-      "userId": [
-        1,
-        2,
-        7,
-        3
-      ],
-      "asignaturaId": 101,
-      "seccionId": 1,
-      "fecha": "2023-12-05T10:30:00",
-      "codigoQr": ""
+      "id": "12/12/2023-001DW-5",
+      "asignaturaId": 102,
+      "seccionId": "001DW",
+      "idHorario": 5,
+      "fecha": "Martes",
+      "codigoQr": "001DW-102-Martes-4"
     }
+  ],
+  "asistidos": [
+    {
+      "id": "12/12/2023-001DW-5",
+      "alumno": 0
+    }
+    
   ]
 }
