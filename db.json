@@ -311,12 +311,12 @@
   ],
   "asistencia": [
     {
-      "id": "12/12/2023-001DW-5",
-      "asignaturaId": 102,
-      "seccionId": "001DW",
-      "idHorario": 5,
-      "fecha": "Martes",
-      "codigoQr": "001DW-102-Martes-4"
+      "id": "1-1-1",
+      "asignaturaId": 101,
+      "seccionId": "001BD",
+      "idHorario": 1,
+      "fecha": "Lunes",
+      "codigoQr": "001BD-101-Lunes-3"
     }
   ],
   "asistidos": [
